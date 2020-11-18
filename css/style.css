@@ -33,13 +33,14 @@
     float: left;
 }
 
-.row:last-child .col-6{
-    padding: 10px;
+.row .row [class*="col-"]{
+    height: 100%;
+    border: 1px solid white;
+    float: left;
+    background-color: pink;
+    line-height: 80px;
 }
 
-.row:last-child .col-6 [class*="col-"]{
-    border: none;
-    background-color: rgba(240, 51, 86, 0.664);
-    line-height: 80px;
-    margin: auto;
+.row .row{
+    padding: 10px;
 }
