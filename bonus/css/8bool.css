@@ -1,0 +1,49 @@
+/* framework */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row> [class*="col-"]{
+    float: left;
+    height: 100%;
+}
+
+
+.col-1{
+    width: calc(100% / 8 * 1);
+}
+
+.col-2{
+    width: calc(100% / 8 * 2);
+}
+
+.col-3{
+    width: calc(100% / 8 * 3);
+}
+
+.col-4{
+    width: calc(100% / 8 * 4);
+}
+
+.col-5{
+    width: calc(100% / 8 * 5);
+}
+
+.col-6{
+    width: calc(100% / 8 * 6);
+}
+
+.col-7{
+    width: calc(100% / 8 * 7);
+}
+
+.col-8{
+    width: calc(100% / 8 * 8);
+}
+
+
+.col-offset-1{
+    margin-left: calc(100% / 8 * 1);
+}

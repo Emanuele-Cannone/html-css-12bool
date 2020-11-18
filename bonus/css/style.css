@@ -1,0 +1,50 @@
+body{
+    background-image: url('https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg');
+}
+
+.container{
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+}
+
+.row{
+    height: 80px;
+}
+
+.row:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+span{
+    display: block;
+    height: 100%;
+    background-color: rgb(189, 67, 1);    
+}
+
+/* utilizzando child */
+
+/* .container>.row:nth-child(odd).row>.col-1:nth-child(odd){
+    background-color: #c8621e;
+}
+
+.container>.row:nth-child(odd).row>.col-1:nth-child(even){
+    background-color: white;
+}
+
+.container>.row:nth-child(even).row>.col-1:nth-child(even){
+    background-color: #c8621e;
+}
+
+.container>.row:nth-child(even).row>.col-1:nth-child(odd){
+    background-color: white;
+}
+
+container>.row:nth-child(odd).row>.col-1:nth-child(odd){
+    background-color: #c8621e;
+} */
+
+
+
