@@ -4,3 +4,26 @@
     box-sizing: border-box;
 }
 
+.row::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.contenitore{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row{
+    text-align: center;
+    height: 100px;
+}
+
+.row [class*="col-"]{
+    height: 100%;
+    border: 1px solid black;
+    line-height: 100px;
+    float: left;
+}
+
