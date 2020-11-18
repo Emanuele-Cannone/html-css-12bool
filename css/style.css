@@ -35,7 +35,7 @@
     line-height: 130px;
 }
 
-.row .col-6 .row{
+.row:last-child [class*="col-"]> .row{
     padding: 10px;
     height: 100%;
 }
