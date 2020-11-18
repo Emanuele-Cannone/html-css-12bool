@@ -10,12 +10,6 @@
     clear: both;
 }
 
-.row .row::after{
-    content: '';
-    display: table;
-    clear: both;
-}
-
 .contenitore{
     max-width: 1170px;
     margin: 10px auto;
@@ -35,9 +29,7 @@
 }
 
 .row .row [class*="col-"]{
-    height: 100%;
     border: 1px solid white;
-    float: left;
     background-color: #f07f80;
     line-height: 130px;
 }
