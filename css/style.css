@@ -15,11 +15,12 @@
     margin: 10px auto;
 }
 
-.row{
-    text-align: center;
+
+.contenitore>.row{
     height: 150px;
+    text-align: center;
     background-color: #ffc0cb;
-}
+}  
 
 .row [class*="col-"]{
     height: 100%;
@@ -28,12 +29,13 @@
     float: left;
 }
 
-.row .row [class*="col-"]{
+[class*="col-"]> .row [class*="col-"]{
     border: 1px solid white;
     background-color: #f07f80;
     line-height: 130px;
 }
 
-.row .row{
+.row .col-6 .row{
     padding: 10px;
+    height: 100%;
 }
