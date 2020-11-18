@@ -23,13 +23,14 @@
 
 .row{
     text-align: center;
-    height: 100px;
+    height: 150px;
+    background-color: #ffc0cb;
 }
 
 .row [class*="col-"]{
     height: 100%;
     border: 1px solid black;
-    line-height: 100px;
+    line-height: 150px;
     float: left;
 }
 
@@ -37,8 +38,8 @@
     height: 100%;
     border: 1px solid white;
     float: left;
-    background-color: pink;
-    line-height: 80px;
+    background-color: #f07f80;
+    line-height: 130px;
 }
 
 .row .row{
