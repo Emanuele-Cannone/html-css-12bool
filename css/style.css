@@ -10,9 +10,15 @@
     clear: both;
 }
 
+.row .row::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
 .contenitore{
     max-width: 1170px;
-    margin: auto;
+    margin: 10px auto;
 }
 
 .row{
@@ -27,3 +33,13 @@
     float: left;
 }
 
+.row:last-child .col-6{
+    padding: 10px;
+}
+
+.row:last-child .col-6 [class*="col-"]{
+    border: none;
+    background-color: rgba(240, 51, 86, 0.664);
+    line-height: 80px;
+    margin: auto;
+}
